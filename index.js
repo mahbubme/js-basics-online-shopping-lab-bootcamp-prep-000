@@ -72,5 +72,5 @@ function placeOrder(cardNumber) {
   if( !empty( cardNumber ) ) {
     
   }
-  return 
+  return `Sorry, we don't have a credit card on file for you.`;
 }

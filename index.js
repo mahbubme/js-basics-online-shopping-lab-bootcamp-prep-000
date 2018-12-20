@@ -69,7 +69,7 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  if( !empty( cardNumber ) ) {
+  if( cardNumber.length !== 0 ) {
     cart.length = 0;
     return `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`
   }

@@ -69,5 +69,8 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  
+  if( !empty( cardNumber ) ) {
+    
+  }
+  return 
 }
